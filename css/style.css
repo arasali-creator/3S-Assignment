@@ -13,10 +13,13 @@ header{
     background-repeat: no-repeat;
 }
 .text-hero{
-padding: 137px 334px 0px 334px;
+padding: 85px 334px 0px 334px;
 
 }
-
+.logo-center{
+    position: relative;
+    top: -62px;
+}
 
 .text-hero h1{
     text-align: center;
