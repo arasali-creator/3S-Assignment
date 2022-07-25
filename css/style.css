@@ -35,9 +35,24 @@ line-height: 97px;
     color: black;
     font-weight: 500;
     font-size: 16px;
-
 }
-
+.top-vabar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #343434;
+    text-align: left;
+}
+.card-text-2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #343434;
+    text-align: left;
+}
 /*cards*/
 .cards-wrapper{
     display: flex;
@@ -57,6 +72,9 @@ border: none;
     z-index: 1;
     margin-top: -21px;
 }
+.card-body-content{
+    padding: 3rem 1rem 2rem 1rem;
+}
 .card-body-content h5{
     color: #B32840;
     font-size: 20px;
@@ -74,6 +92,14 @@ border: none;
 .test h5{
     color: #B32840;
     text-align: left;
+    font-style:  italic;
+    font-weight: bolder;
+}
+.card-icon img{
+    width: 32px;
+    position: relative;
+    left: 14px;
+    top: 25px;
 }
 .member-box{
     padding: 100px 0px 50px 0px;
@@ -189,6 +215,13 @@ border: none;
 .right {
     padding-left: 70px;
 }
+.next-pre-icon img,svg{
+    background: #1BAFB3;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 1px 12px #1BAFB34D;
+}
+
 @media (max-width:1024px) {
     .text-hero{
         padding: 0px;
@@ -197,10 +230,11 @@ border: none;
        
 }
 @media (max-width:425px){
-    .top-nav .container{
+    .top-vabar .container{
         display: flex;
         flex-direction: row;
     }
+   
     .logo-image img{
         width: 131px;
         height: auto;
@@ -272,7 +306,7 @@ padding: 20px;
     justify-content: center;
 }
 .carousel-inner{
-    overflow: visible;
+    overflow: hidden;
    
 }
 .carousel-nav-icon {
