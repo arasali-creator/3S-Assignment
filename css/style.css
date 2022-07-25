@@ -71,6 +71,7 @@ border: none;
 .card-item-2{
     z-index: 1;
     margin-top: -21px;
+    width: 23rem;
 }
 .card-body-content{
     padding: 3rem 1rem 2rem 1rem;
@@ -186,6 +187,9 @@ border: none;
 .footermenu .navbar-nav .nav-item .nav-link {
     color: rgb(0, 0, 0);
 }
+.footer-content{
+    display: flex;
+}
 .footer-logo-center{
     position: relative;
     top: -104px;
@@ -199,9 +203,7 @@ border: none;
     display: flex !important;
     justify-content: space-around !important;
 }
-.footer-content{
-    display: flex;
-}
+
 .footer-content .left{
     width: 50%;
     padding-right: 90px;
@@ -221,18 +223,56 @@ border: none;
     padding: 10px;
     box-shadow: 0px 1px 12px #1BAFB34D;
 }
+.social{
+    display:flex;
+    justify-content: space-between;
+    padding: 16px 10px;
+}
+.bottom-footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 @media (max-width:1024px) {
     .text-hero{
         padding: 0px;
         
         }
-       
+        .card-item-2{
+   
+            width: 20rem;
+         }
+.cards-c{
+    width: 17rem;
+ }
+
 }
+@media (max-width:786px) {
+    .top-vabar .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+}
+.footermenu{
+    display: none;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -140px;
+    padding: 20px;
+}
+
+
+
 @media (max-width:425px){
     .top-vabar .container{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
    
     .logo-image img{
@@ -274,7 +314,7 @@ padding: 20px;
         margin-top: 20px;
     }
     .card-item-2{
-       width: 20rem !important;
+       width: 20rem;
     }
 .text-hero {
     padding: 320px 26px 20px 26px;
@@ -284,10 +324,37 @@ padding: 20px;
     font-size: 44px ;
     line-height: 65px ;
 }
+.footer{
+    margin-top: 0px;
+}
 .footermenu{
     display: none;
 }
+.footer-inner{
+    padding: 30px;
 }
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .left{
+    width: 100%;
+    padding: 0px;
+    border: none;
+}
+.footer-content .right{
+    width: 100%;
+    padding: 0px;
+}
+.bottom-footer .container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.tesimonial-slider{
+    margin-bottom: 190px !important;
+}
+}}
 .carousel-item .col, .carousel-item .col-sm, .carousel-item .col-md {
     margin: 8px;
     height: 300px;
@@ -306,7 +373,7 @@ padding: 20px;
     justify-content: center;
 }
 .carousel-inner{
-    overflow: hidden;
+    overflow: visible;
    
 }
 .carousel-nav-icon {
@@ -316,4 +383,5 @@ padding: 20px;
  .carousel-item .cards-c{
     box-shadow: 0px 6px 20px #00000029;
     border: none;
+    width: 20rem;
  }
