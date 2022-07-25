@@ -237,7 +237,9 @@ border: none;
     justify-content: space-between;
     
 }
-
+.wrap-content a{
+    white-space:nowrap;
+}
 @media (max-width:1024px) {
     .text-hero{
         padding: 0px;
